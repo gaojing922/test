@@ -1,0 +1,26 @@
+/*主体盒子*/
+.jd_layout{
+	width: 100%;
+	max-width: 640px;
+	min-width: 300px;
+	margin: 0 auto;
+}
+/*头部搜索*/
+.jd_header{
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	height:40px;
+}
+.jd_header > .jd_header_box{
+	width: 100%;
+	max-width: 640px;
+	min-width: 300px;
+	margin: 0 auto;
+	height: 40px;
+	background: rgba(201,21,35,0.85);
+}
+.jd_header > .jd_header_box > .icon_logo{
+	
+}

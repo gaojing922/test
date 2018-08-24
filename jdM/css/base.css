@@ -1,0 +1,51 @@
+*,
+::before,
+::after{
+	margin: 0;
+	padding: 0;
+	/*清除称动端默认的点击高亮效果*/
+	-webkit-tap-highlight-color: transparent;
+	/*设置所有元素都是以边框开始计算宽度*/
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body{
+	font-size: 14px;
+	font-family: "microsoft yahei",sans-serif;
+	color: #333;
+}
+ul,ol{
+	list-style: none;
+}
+a{
+	color: #333;
+}
+a:hover{
+	text-decoration: none;
+}
+input{
+	border: none;
+	outline: none;
+	/*清除移动端默认的表单样式*/
+	-webkit-appearance: none;
+	appearance: none;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.clearBox:after,.clearBox:before{
+	content: '';
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+}
+
+
+
+
+
